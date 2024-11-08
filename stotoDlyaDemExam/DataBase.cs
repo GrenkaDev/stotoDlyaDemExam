@@ -10,7 +10,7 @@ namespace stotoDlyaDemExam
 {
     class DataBase
     {
-        SqlConnection SqlConnection = new SqlConnection(@"Data Source = DESKTOP-24HL4ATJ;Initial Catalog = nameryyMyyGanenyyn;Integrated Security = True");
+        SqlConnection SqlConnection = new SqlConnection(@"Data Source = KOMPGRENKI;Initial Catalog = nameryyMyyGanenyyn;Integrated Security = True");
 
         public void openConnection()
         {
